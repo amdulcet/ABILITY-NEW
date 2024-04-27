@@ -1,0 +1,42 @@
+body{
+    text-align: center;
+    background-image: url(image.gif);
+    color: aliceblue;
+}
+#menu{
+    float: right;
+    color: black;
+    text-align:center;
+    margin-top: -70px;
+}
+#menu ul{
+    list-style: none;
+}
+#menu ul li{
+   
+    display: inline;
+}
+#menu ul li a{
+    text-decoration: none;
+    font-size: 20pt;
+   color:aliceblue ;
+    padding: 20px;
+}
+#menu ul li a:hover{
+    color:powderblue;
+}
+#chat-box{
+    background-color: black;
+    color: aliceblue;
+    width: 70%;
+    margin-left: 15%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#user-input{
+    color: aliceblue;
+    background-color: rgba(0, 255, 255, 0);
+}
+/* CSS for the typing animation */
+
+  
